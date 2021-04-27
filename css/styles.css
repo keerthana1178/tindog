@@ -1,0 +1,203 @@
+#title{
+
+  text-align: left;
+
+}
+
+body{
+  font-family: Montserrat;
+ text-align: center;               /*we can dlt all other instances of textalign-center. rn not dlted*/
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold",sans-serif;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.5 rem;
+
+  font-weight: 900;
+}
+
+p{
+  text-align: center;
+}
+
+.bigheading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+.container-fluid{
+  padding: 3% 15%;     /*3% on top and btm, 15% on l,r*/
+  padding-bottom: 7%
+}
+
+/* sections */
+.coloured{
+  background-color: #ff4c68;
+  color: white;
+}
+.whhite{
+  background-color: white;
+}
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem; /* because by default on left side there issome padding */
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 10px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+
+}
+
+/* download buttons */
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* titleimg */
+.Titleimg{
+  padding-top: 50px;
+   width: 60%;   /* wrt parent size */
+   transform: rotate(25deg);
+
+   position: absolute;
+   right: 30%; /*margin to the right is 30% moves closer to right*/
+}
+
+
+#features{
+  padding: 7% 15%;
+
+  position: relative;
+  z-index: 1;
+}
+
+.fas{
+    text-align: center;
+
+   padding: 15px;
+   padding-left: 70px;
+
+  color: #ef8172;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+.col-lg-4{
+  padding: 50px;
+}
+
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+
+}
+
+.testimonial-text{
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+.testimonialimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;    /*7-t,b; 15-l,r */
+}
+
+#press{
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+
+}
+
+.presslogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricetxt{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.prc-clm{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+
+  }
+  .Titleimg{
+    position: static;
+    transform: rotate(0);   /*this is absolute rotation. so only 0*/
+  }
+
+}
+
+
+/* #cta{
+  color: white;
+  background-color: #ff4c68;
+  text-align: center;
+
+  padding: 5%;
+} */
+
+#cta{
+  
+  padding: 7% 15%;
+  text-align: center;
+}
+/* .ctaheading{
+  font-family: "Montserrat-Black",sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+} */
+
+/* #footer{
+  margin: 100px;
+  text-align: center;
+} */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.icn{
+  margin: 20px 10px;
+  text-align: center;
+}
